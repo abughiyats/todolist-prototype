@@ -2,11 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
 
 body {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Hind Siliguri',
+  sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -14,4 +15,53 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.h0 {
+  @apply text-4xl font-bold md:text-5xl;
+}
+
+h1,
+.h1 {
+  @apply text-3xl font-bold md:text-4xl;
+}
+
+h2,
+.h2 {
+  @apply text-xl font-bold md:text-3xl;
+}
+
+h3,
+.h3 {
+  @apply text-lg font-bold md:text-2xl;
+}
+
+h4,
+.h4 {
+  @apply text-base font-bold md:text-lg;
+}
+
+body,
+.p {
+  @apply text-sm md:text-base;
+}
+
+.pink-fuchsia {
+  @apply bg-gradient-to-tr from-pink-600 to-fuchsia-600
+}
+
+.teal-blue {
+  @apply bg-gradient-to-tr from-teal-300 to-blue-600
+}
+
+.purple-violet {
+  @apply bg-gradient-to-tr from-purple-400 to-violet-700
+}
+
+.blue-sky {
+  @apply bg-gradient-to-tr from-blue-600 to-sky-400
+}
+
+.yellow-orange {
+  @apply bg-gradient-to-tr from-yellow-500 to-orange-600
 }

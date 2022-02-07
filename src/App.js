@@ -1,5 +1,5 @@
-import { Left } from "./components/organisms/left-content";
-import { Right } from "./components/organisms/right-content";
+import Left from "./components/organisms/left-content";
+import Right from "./components/organisms/right-content";
 
 
 function App() {
